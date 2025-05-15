@@ -4,4 +4,13 @@
 
 @theme {
   --font-sans: 'Manrope', sans-serif;
+  --height-kv: calc((var(--vh, 1vh) * 100) - 72px);
+}
+
+body {
+  @apply font-sans tracking-widest;
+}
+
+.loader {
+  @apply block w-6 aspect-square border-2 border-t-0 border-l-0 rounded-full;
 }

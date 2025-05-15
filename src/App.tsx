@@ -1,7 +1,10 @@
+import { Keyvisual } from "./components/keyvisual/Keyvisual"
+
 function App() {
   return (
-    <div>
-    </div>
+    <>
+      <Keyvisual />
+    </>
   )
 }
 
